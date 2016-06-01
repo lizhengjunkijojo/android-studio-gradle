@@ -1,15 +1,12 @@
 # android-studio-gradle
-Android studio中配置使用Gradle
+
+#Android studio中配置使用Gradle
 
 1.下载gradle-xxx-zip包，放置到android studio目录下，项目中配置参数
 
 http://services.gradle.org/distributions
 
-
-
 /Applications/Android Studio.app/Contents/gradle
-
-
 
 distributionUrl=https\://services.gradle.org/distributions/gradle-2.13-all.zip
 
@@ -17,15 +14,10 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-2.13-all.zip
 
 https://jcenter.bintray.com/com/android/tools/build/gradle/
 
-
-
 /Applications/Android Studio.app/Contents/gradle/m2repository/com/android/tools/build/gradle
-
-
 
 dependencies {
     classpath 'com.android.tools.build:gradle:2.1.0’
-
 }
 
 3.
